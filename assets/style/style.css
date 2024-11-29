@@ -1,0 +1,133 @@
+:root{
+    --green: #0A441E;
+}
+body, html {
+    font-family: "Montserrat", sans-serif ;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: #1F5B34;
+}
+
+*{
+    box-sizing: border-box;
+
+}
+.container{
+    max-width: 1289px;
+    margin: 0px auto;
+    margin-top: 20px;
+} 
+
+/* HEADER */
+
+header{
+    margin-top: 50px;
+}
+
+.header-content{
+    display: flex;
+    justify-content:space-between;
+}
+
+nav a{
+    text-decoration: none;
+    margin-right: 75px;
+}
+
+
+
+/*MAIN*/
+
+main{
+    margin-top: 8px;
+    text-align: center;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* RESEPTS*/
+.resepts{
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: flex;
+    color: rgb(13, 13, 13);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.dropbtn{
+    border-radius: 20px;
+}
+
+
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 40px;    
+    border: none;
+    outline: none;
+    color: #1F5B34;
+    padding: 50px 25px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    border-radius: 50%;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: beige;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(60, 131, 45, 0.922);
+    z-index: 1;
+    border-radius: 10px;
+   
+}
+
+.dropdown-content a {
+    float: none;
+    color: rgb(105, 148, 80);
+    padding: 12px 16px;
+    text-decoration:none;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+} 
+ 
+
